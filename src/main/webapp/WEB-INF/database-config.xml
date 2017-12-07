@@ -37,9 +37,9 @@
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
       <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
-      <property name="url" value="jdbc:oracle:thin:@fragxpdb01dev-dc1.esi.adp.com:12014:TGXP10" />
-      <property name="username" value="ITCAT" />
-      <property name="password" value="ADPGSI_01" />
+      <property name="url" value="" />
+      <property name="username" value="" />
+      <property name="password" value="" />
    </bean> 
 
     <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
